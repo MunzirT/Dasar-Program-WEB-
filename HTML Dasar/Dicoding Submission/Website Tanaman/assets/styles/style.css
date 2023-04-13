@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #EDF1D6;
+  }
+
+main {
+  padding: 20px;
+  overflow: auto;
+}
+  
+ h2, h3 {
+    color: #609966;
+ }
+
+ h2{
+   font-size: 26pt;
+ }
+
+ h3{
+   font-size: 20pt;
+ }
+  
+  
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #00a2c6;
+ }
+
+ nav {
+    background-color: #00a2c6;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+ }
+
+ nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+ }
+
+ nav a:hover {
+    font-weight: bold;
+ }
+
+ header {
+    display: inline;
+ }
+
+ .profile header {
+    text-align: center;
+ }
+
+ footer {
+    padding: 20px;
+    color: white;
+    background-color: #40513B;
+    text-align: center;
+    font-weight: bold;
+ }
+
+ .featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+ }
+
+ .profile img {
+    width: 200px;
+ }
+
+ .card {
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f5f7e9;
+ }
+
+ .jumbotron {
+   font-family: Fredoka One;
+    padding: 60px;
+    background-color: #609966;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+nav {
+    background-color: #9DC08B;
+    padding: 5px;
+  }
+
+nav a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: white;
+}
+
+#content {
+    float: left;
+    width: 75%;
+  }
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 20px;
+}
+aside img{
+   border-radius: 15px;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+@media screen and (max-width: 1000px) {
+  #content,
+  aside {
+    width: 100%;
+    padding: 0;
+  }
+}
